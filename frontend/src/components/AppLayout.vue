@@ -141,7 +141,7 @@ onUnmounted(() => window.removeEventListener('keydown', onKeydown))
       <SidebarHeader>
         <div class="flex items-center gap-2 py-1.5">
           <span
-            class="bg-primary-soft text-primary ring-primary/15 flex aspect-square size-8 items-center justify-center rounded-lg ring-1"
+            class="text-primary flex aspect-square size-8 items-center justify-center"
           >
             <ClaudeMark class="size-5" />
           </span>
